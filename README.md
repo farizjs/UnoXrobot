@@ -9,6 +9,13 @@ To run the bot yourself, you will need:
 - The [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) module
 - [Pony ORM](https://ponyorm.com/)
 
+## Heroku Deployment <img src="./etc/Kenpurple.gif" width="40px">
+The easy way to host this bot, deploy to Heroku, Change the app country to Europe (it will help to make the bot stable).
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/fjgaming212/UnoXrobot)
+
+
+
 ## Setup
 - Get a bot token from [@BotFather](http://telegram.me/BotFather) and change configurations in `config.json`.
 - Convert all language files from `.po` files to `.mo` by executing the bash script `compile.sh` located in the `locales` folder.
@@ -24,4 +31,3 @@ Then run the bot with `python3 bot.py`.
 
 Code documentation is minimal but there.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/fjgaming212/UnoXrobot)
