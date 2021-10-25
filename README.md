@@ -23,3 +23,5 @@ Current gamemodes available: classic, fast and wild. Check the details with the 
 Then run the bot with `python3 bot.py`.
 
 Code documentation is minimal but there.
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/fjgaming212/UnoXrobot)
