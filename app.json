@@ -7,15 +7,15 @@
   ],
   "repository": "https://github.com/fjgaming212/UnoXrobot",
   "env": {
-    "token": {
+    "BOT_TOKEN": {
       "description": "Bot token kamu",
       "required": true
     },
-    "admin_list": {
+    "ADMIN_LIST": {
       "description": "List admin bot mu.",
       "required": true
     },
-    "open_lobby": {
+    "OPEN_LOBBY": {
       "description": "Loby saat memakai bot mu.",
       "value": "true",
       "required": true
@@ -50,7 +50,7 @@
       "value": "15",
       "required": true
     },
-    "min_players": {
+    "MIN_PLAYER": {
       "description": "Minimal player bot mu",
       "value": "2",
       "required": true
