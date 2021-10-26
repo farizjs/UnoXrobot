@@ -20,32 +20,32 @@
       "value": "true",
       "required": true
     },
-    "enable_translations": {
+    "ENABLE_TRANSLATIONS": {
       "description": "Terjemahan bot mu.",
       "value": "false",
       "required": true
     },
-    "workers": {
+    "WORKERS": {
       "description": "",
       "value": "32",
       "required": true
     },
-    "default_gamemode": {
+    "DEFAULT_GAMEMODE": {
       "description": "Mode game untuk bot mu",
       "value": "fast",
       "required": false
     },
-    "waiting_time": {
+    "WAITING_TIME": {
       "description": "",
       "value": "120",
       "required": false
     },
-    "time_removal_after_skip": {
+    "TIME_REMOVAL_AFTER_SKIP": {
       "description": "",
       "value": "20",
       "required": false
     },
-    "min_fast_turn_time": {
+    "MIN_FAST_TURN_TIME": {
       "description": "",
       "value": "15",
       "required": true
