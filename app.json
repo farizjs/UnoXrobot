@@ -1,0 +1,65 @@
+{
+"name": "UnoXrobot",
+  "description": "Bot Telegram untuk bermain uno",
+  "keywords": [
+    "telegram",
+    "bot"
+  ],
+  "repository": "https://github.com/fjgaming212/UnoXrobot",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Bot token kamu",
+      "required": true
+    },
+    "ADMIN_LIST": {
+      "description": "List admin bot mu.",
+      "required": true
+    },
+    "OPEN_LOBBY": {
+      "description": "Loby saat memakai bot mu.",
+      "value": "true",
+      "required": true
+    },
+    "ENABLE_TRANSLATIONS": {
+      "description": "Terjemahan bot mu.",
+      "value": "false",
+      "required": true
+    },
+    "WORKERS": {
+      "description": "",
+      "value": "32",
+      "required": true
+    },
+    "DEFAULT_GAMEMODE": {
+      "description": "Mode game untuk bot mu",
+      "value": "fast",
+      "required": false
+    },
+    "WAITING_TIME": {
+      "description": "",
+      "value": "120",
+      "required": false
+    },
+    "TIME_REMOVAL_AFTER_SKIP": {
+      "description": "",
+      "value": "20",
+      "required": false
+    },
+    "MIN_FAST_TURN_TIME": {
+      "description": "",
+      "value": "15",
+      "required": true
+    },
+    "MIN_PLAYER": {
+      "description": "Minimal player bot mu",
+      "value": "2",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "stack": "heroku-20"
+}
